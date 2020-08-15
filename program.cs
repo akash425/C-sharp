@@ -20,7 +20,10 @@ namespace smartdata_entreprises//classes of classs
     {
         static void Main(string[] args)//main function
         {
-            employee[] emp = new employee[3];
+            int n;
+            Console.WriteLine("Enter No. of Employees: ");
+            employee[] emp = new employee[n];
+            n = int.Parse(Console.ReadLine());
             int i;
             Console.WriteLine("SmartData Enterprises Limited ");
             Console.WriteLine("Enter the records of Employee: ");
